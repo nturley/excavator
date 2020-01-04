@@ -6,7 +6,7 @@ const url = require('url');
 const mqtt_url = url.parse(process.env.CLOUDMQTT_URL || 'mqtt://localhost:1883');
 const auth = (mqtt_url.auth || ':').split(':');
 
-var client  = mqtt.connect(mqtt_url, [{username: auth0, password: auth1}])
+var client  = mqtt.connect(mqtt_url, [{username: auth[0], password: auth[1]}])
 const app = express()
 const port = process.env.PORT || 5000
 
