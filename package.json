@@ -1,0 +1,22 @@
+{
+  "name": "excavator",
+  "version": "1.0.0",
+  "description": "playing around with Heroku and MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nturley/excavator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nturley/excavator/issues"
+  },
+  "homepage": "https://github.com/nturley/excavator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
