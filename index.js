@@ -6,6 +6,7 @@ const app = express()
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000
 
+var ObjectID = mongodb.ObjectID;
 var CONTACTS_COLLECTION = "contacts";
 
 function handleError(res, reason, message, code) {
